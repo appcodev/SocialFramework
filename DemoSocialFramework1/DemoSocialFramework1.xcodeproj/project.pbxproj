@@ -21,6 +21,9 @@
 		37E07F6917C13BDA00641250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E07F4B17C13BDA00641250 /* UIKit.framework */; };
 		37E07F7117C13BDA00641250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37E07F6F17C13BDA00641250 /* InfoPlist.strings */; };
 		37E07F7317C13BDA00641250 /* DemoSocialFramework1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E07F7217C13BDA00641250 /* DemoSocialFramework1Tests.m */; };
+		37E07F7D17C13D4C00641250 /* web_head5.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E07F7C17C13D4C00641250 /* web_head5.png */; };
+		37E07F7F17C13FED00641250 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E07F7E17C13FED00641250 /* Social.framework */; };
+		37E07F8117C13FF300641250 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E07F8017C13FF300641250 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		37E07F6E17C13BDA00641250 /* DemoSocialFramework1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSocialFramework1Tests-Info.plist"; sourceTree = "<group>"; };
 		37E07F7017C13BDA00641250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37E07F7217C13BDA00641250 /* DemoSocialFramework1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSocialFramework1Tests.m; sourceTree = "<group>"; };
+		37E07F7C17C13D4C00641250 /* web_head5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_head5.png; sourceTree = "<group>"; };
+		37E07F7E17C13FED00641250 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		37E07F8017C13FF300641250 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E07F8117C13FF300641250 /* Accounts.framework in Frameworks */,
+				37E07F7F17C13FED00641250 /* Social.framework in Frameworks */,
 				37E07F4A17C13BDA00641250 /* CoreGraphics.framework in Frameworks */,
 				37E07F4C17C13BDA00641250 /* UIKit.framework in Frameworks */,
 				37E07F4817C13BDA00641250 /* Foundation.framework in Frameworks */,
@@ -101,6 +109,8 @@
 		37E07F4617C13BDA00641250 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37E07F8017C13FF300641250 /* Accounts.framework */,
+				37E07F7E17C13FED00641250 /* Social.framework */,
 				37E07F4717C13BDA00641250 /* Foundation.framework */,
 				37E07F4917C13BDA00641250 /* CoreGraphics.framework */,
 				37E07F4B17C13BDA00641250 /* UIKit.framework */,
@@ -112,6 +122,7 @@
 		37E07F4D17C13BDA00641250 /* DemoSocialFramework1 */ = {
 			isa = PBXGroup;
 			children = (
+				37E07F7C17C13D4C00641250 /* web_head5.png */,
 				37E07F5617C13BDA00641250 /* OZAppDelegate.h */,
 				37E07F5717C13BDA00641250 /* OZAppDelegate.m */,
 				37E07F5917C13BDA00641250 /* Main.storyboard */,
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E07F7D17C13D4C00641250 /* web_head5.png in Resources */,
 				37E07F6017C13BDA00641250 /* Images.xcassets in Resources */,
 				37E07F5217C13BDA00641250 /* InfoPlist.strings in Resources */,
 				37E07F5B17C13BDA00641250 /* Main.storyboard in Resources */,
